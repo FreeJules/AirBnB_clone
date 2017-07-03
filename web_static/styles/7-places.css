@@ -1,6 +1,4 @@
 .places {
-    text-align: left;
-    vertical-align: top;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -16,8 +14,6 @@ article {
     margin: 20px;
     border: solid 1px #FF5A5F;
     border-radius: 4px;
-    left: 0%;
-    position: relative;
 }
 article h2 {
     font-size: 30px;
