@@ -41,7 +41,11 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
-li {
+.locations li {
+    list-style-type: none;
+    padding: 5px 5px 5px 20px;
+}
+.amenities li {
     list-style-type: none;
     padding: 5px;
 }
