@@ -21,7 +21,7 @@
 }
 .popover {
     background-color: #FAFAFA;
-    border: solid #DDDDDD 1px; 
+    border: solid #DDDDDD 1px;
     border-radius: 4px;
     display: none;
     min-width: auto;
@@ -33,13 +33,16 @@
     display: block;
     transform: translate(-14%, 5%);
     padding-bottom: 20px;
-
+    position: relative;
+    z-index: 1;
 }
 .amenities:hover .popover{
     display: block;
     transform: translate(-14%, 7.5%);
     padding-bottom: 20px;
     padding-top: 20px;
+    position: relative;
+    z-index: 1;
 }
 .locations li {
     list-style-type: none;
@@ -49,7 +52,7 @@
     list-style-type: none;
     padding: 5px;
 }
-h2 {
+.popover h2 {
     font-size: 16px;
 }
 h3 {

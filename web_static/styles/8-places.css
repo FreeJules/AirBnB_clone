@@ -15,9 +15,12 @@ article {
     border: solid 1px #FF5A5F;
     border-radius: 4px;
 }
-article h2 {
+article > h2 {
     font-size: 30px;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    transform: translateY(60%);
 }
 .price_by_night {
     color: #FF5A5F;
@@ -29,7 +32,7 @@ article h2 {
     text-align: center;
     font-size: 30px;
     float: right;
-    transform: translateY(-120%);
+    transform: translateY(-45%);
 }
 .information {
     height: 80px;
