@@ -13,7 +13,7 @@
     padding-left: 40px;
     border-right: solid #DDDDDD 1px;
 }
-.amenities {
+.filters .amenities {
     height: 100%;
     width: 25%;
     float: left;
@@ -36,7 +36,7 @@
     position: relative;
     z-index: 1;
 }
-.amenities:hover .popover{
+.filters .amenities:hover .popover{
     display: block;
     transform: translate(-14%, 7.5%);
     padding-bottom: 20px;
@@ -48,18 +48,18 @@
     list-style-type: none;
     padding: 5px 5px 5px 20px;
 }
-.amenities li {
+.filters .amenities li {
     list-style-type: none;
     padding: 5px;
 }
-.popover h2 {
+.filters .popover h2 {
     font-size: 16px;
 }
-h3 {
+.filters h3 {
     font-weight: 600;
     margin-bottom: 10px;
 }
-h4 {
+.filters h4 {
     font-weight: 400;
     font-size: 14px;
     line-height: 0px;
